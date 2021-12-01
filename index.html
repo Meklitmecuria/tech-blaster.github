@@ -3,18 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Things to do in Johannesburg,South Africa | Welcome to Home  </title>
-    <style>
-      h1 {font-color:pink;
-          text-align:center;
-          font-size:60px;}
-    </style>
-  </head>
-  <!DOCTYPE html>
-<html>
-<head>
-<title>
-</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .navMenu{
 	overflow:hidden;
@@ -62,11 +50,11 @@
 }
 .main_links:hover{
 	background-color:#6ab4b9;
-	color:#FFFFFF
+	color:#000000
 }
 .navMenu .navbar a:hover,.navMenu .dropdown:hover .dropbtn{
 	background-color:#6ab4b9;
-	color:#FFFFFF
+	color:#000000
 }
 .navMenu .dropdown-content{
 	display:none;
@@ -88,7 +76,7 @@
 }
 .navMenu .dropdown-content a:hover{
 	background-color:#333;
-	color:#FFFFFF
+	color:#000000
 }
 .navMenu .dropdown:hover .dropdown-content{
 	display:block
@@ -132,16 +120,9 @@ p {font-family:Garamond, serif;font-size:16px;font-style:normal;font-weight:norm
 </head>
 <body>
 <script>
-    function openMenu() {
-        var navMain = document.getElementById('navMenuId');
-        if (navMain.className === 'navMenu') {
-            navMain.className += ' mobileView';
-        } else {
-            navMain.className = 'navMenu';
-        }
-    }
+function openMenu() {  var navMain = document.getElementById('navMenuId');  if (navMain.className=== 'navMenu') {    navMain.className += ' mobileView';  } else {    navMain.className = 'navMenu';  }}
 </script>
-<div><a href="https://meklitmecuria.github.io/tech-blaster.github">Home</a><a href="https://meklitmecuria.github.io/tech-blaster.github/Relaxed,%20Chilled%20Out,%20and%20Calm.html">Relaxing Places</a><a href="https://meklitmecuria.github.io/tech-blaster.github/Happy.html">Happy Places</a><a href="https://meklitmecuria.github.io/tech-blaster.github/Energetic%20and%20Adventurous.html">Energetic Places</a><a>☰</a></div>
+<div class='navMenu' id='navMenuId'><a href='https://meklitmecuria.github.io/tech-blaster.github' class='main_links'>Home</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Relaxed.html' class='main_links'>Relaxing Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Happy.html' class='main_links'>Happy Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Energetic%20and%20Adventurous.html' class='main_links'>Energetic Places</a><a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a></div>
 <h1>Johannesburg is Something You've Never Seen Before...</h1>
 <p>Johannesburg has got it all! Whether it be city tours, day trips,  hikes, or wildlife exploration: you'll find something of interest to you in this beautiful city. Head over to Sandton, If you want a day of shopping. Check out Maboneng if you are into art.  Head to Bela Bela if you want a nice massage. Whatever it is you want, Johannesburg has got it. Upove, you will find specific moods and places in Johannesburg that will enhance those moods. Have fun exploring!</p>
 <img src="https://raw.githubusercontent.com/Meklitmecuria/tech-blaster.github/main/pictures/map%20of%20johannesburg.jpg" alt="Map of Johannesburg">
