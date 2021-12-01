@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Happy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{font-family:Garamond, serif;color:#a8e5a4;background-color:#ffffff;}
+p {font-family:Garamond, serif;font-size:16px;font-style:normal;font-weight:normal;color:#1a1a1a;background-color:#ffffff;}
+</style>
+</head>
+<body>
+<h1>So I hear you are wanting to feel happy. Well I guarentee, you'll be extremely happy after paying these spot a visit!</h1>
+<p>Food always makes me happy! Below are some of my restaurant recommendations:</p>
+<p></p>
+<p>Head over to Doppio Zero for fresh and tasty Italian cuisine as well as their special Wine Tasting Saturdays! (My personal favorite is the Wood-Fried Puttanesca  Pizza!)</p>
+<p>Address: 83 Rivonia Rd, Sandhurst, Sandton, 2196, South Africa</p>
+<p></p>
+<p>Check out O'Galitos for divine Portuguese and South African cuisine. My personal recommendation is the Grilled Salmon.</p>
+<p>Address: 1303 Heuwel Rd, Centurion Central, Centurion, 0157, South Africa</p>
+</body>
+</html>
