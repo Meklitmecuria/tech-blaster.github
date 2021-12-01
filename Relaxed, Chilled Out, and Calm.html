@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-Relaxed, Chilled Out, and Calm</title>
+<title> Relaxed, Chilled Out, and Calm </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
 h1{font-family:Garamond, serif;color:#e5a4dc;background-color:#ffffff;}
 p {font-family:Garamond, serif;font-size:16px;font-style:normal;font-weight:normal;color:#1a1a1a;background-color:#ffffff;}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
+
 <h1>So I hear you are wanting to feel more relaxed and calm. Whether it be exam stress or people-induced stress, I've got just the places in the beautiful city of Johannesburg for you. </h1>
-<p>Head over to the Four Seasons Spa in Westcliff where you'll be greeted with heartwarming service plus a massage that will have you feeling relaxed to the max! This facility also offers body masks, facials, mud baths, seaweed body wraps, and so much more! </p>
-<p>Address: 67 Jan Smuts Ave, Westcliff, Johannesburg, 2132, South Africa</p>
-<p></p>
-<p>Head over to the Wits Art Museum for an opportunity to check out local artists and their work. You will gain a new perspective and also feel extremely calm while doing so. Also, free food is available!</p>
-<p>Address: Wits Art Museum Cnr Jorissen and, Bertha St, Johannesburg, 2001, South Africa</p>
-<p></p>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+    <h2>Four Seasons Spa</h2>
+    <p>Head over to the Four Seasons Spa in Westcliff where you'll be greeted with heartwarming service plus a massage that will have you feeling relaxed to the max! This facility also offers body masks, facials, mud baths, seaweed body wraps, and so much more!</p>
+
+Address: 67 Jan Smuts Ave, Westcliff, Johannesburg, 2132, South Africa
+
+
+</p>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>Wits Art Museum</h2>
+    <p>Head over to the Wits Art Museum for an opportunity to check out local artists and their work. You will gain a new perspective and also feel extremely calm while doing so. Also, free food is available!</p>
+
+Address: Wits Art Museum Cnr Jorissen and, Bertha St, Johannesburg, 2001, South Africa
+
+</p>
+  </div>
+</div>
+
 </body>
 </html>
-
