@@ -5,6 +5,21 @@
 Happy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+* {
+  box-sizing: border-box;
+}
+ 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .navMenu{
 	overflow:hidden;
 	background-color:#c7f0f0
@@ -117,6 +132,7 @@ Happy</title>
 body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
 h1{font-family:Garamond, serif;color:#a8e5a4;background-color:#ffffff;}
 p {font-family:Garamond, serif;font-size:16px;font-style:normal;font-weight:normal;color:#1a1a1a;background-color:#ffffff;}
+ 
 </style>
 </head>
 <body>
@@ -125,14 +141,19 @@ function openMenu() {  var navMain = document.getElementById('navMenuId');  if (
 </script>
 <div class='navMenu' id='navMenuId'><a href='https://meklitmecuria.github.io/tech-blaster.github' class='main_links'>Home</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Relaxed.html' class='main_links'>Relaxing Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Happy.html' class='main_links'>Happy Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Energetic%20and%20Adventurous.html' class='main_links'>Energetic Places</a><a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a></div>
 <h1>So I hear you are wanting to feel happy. Well I guarentee, you'll be extremely happy after paying these spot a visit!</h1>
-<p>Food always makes me happy! Below are some of my restaurant recommendations:</p>
+<h2>Food always makes me happy! Below are some of my restaurant recommendations:</h2>
 <p></p>
+<div class="row">
+  <div class="column" style="background-color:white;">
 <p>Head over to Doppio Zero for fresh and tasty Italian cuisine as well as their special Wine Tasting Saturdays! (My personal favorite is the Wood-Fried Puttanesca  Pizza!)</p>
 <p>Address: 83 Rivonia Rd, Sandhurst, Sandton, 2196, South Africa</p>
 	<img src="https://raw.githubusercontent.com/Meklitmecuria/tech-blaster.github/main/pictures/doppio.jpg" alt="Doppio">
 <p></p>
+</div>
+<div class="column" style="background-color:white;">
 <p>Check out O'Galitos for divine Portuguese and South African cuisine. My personal recommendation is the Grilled Salmon.</p>
 <p>Address: 1303 Heuwel Rd, Centurion Central, Centurion, 0157, South Africa</p>
 	<img src="https://raw.githubusercontent.com/Meklitmecuria/tech-blaster.github/main/pictures/1.-OGalito.jpg" alt="OGalito">
 </body>
 </html>
+ 
