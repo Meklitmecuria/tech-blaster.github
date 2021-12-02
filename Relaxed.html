@@ -4,7 +4,22 @@
 <title> Relaxed, Chilled Out, and Calm </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .navMenu{
 
 
@@ -337,22 +352,7 @@
 body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
 h1{font-family:Garamond, serif;color:#e5a4dc;background-color:#ffffff;}
 p {font-family:Garamond, serif;font-size:16px;font-style:normal;font-weight:normal;color:#1a1a1a;background-color:#ffffff;}
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 </style>
 </head>
 <body>
