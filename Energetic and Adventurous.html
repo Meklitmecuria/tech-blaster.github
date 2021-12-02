@@ -5,6 +5,21 @@
 Energetic and Adventurous</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+* {
+  box-sizing: border-box;
+}
+ 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .navMenu{
 	overflow:hidden;
 	background-color:#c7f0f0
@@ -125,16 +140,23 @@ function openMenu() {  var navMain = document.getElementById('navMenuId');  if (
 </script>
 <div class='navMenu' id='navMenuId'><a href='https://meklitmecuria.github.io/tech-blaster.github' class='main_links'>Home</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Relaxed.html' class='main_links'>Relaxing Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Happy.html' class='main_links'>Happy Places</a><a href='https://meklitmecuria.github.io/tech-blaster.github/Energetic%20and%20Adventurous.html' class='main_links'>Energetic Places</a><a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a></div>
 <h1>So I hear you are wanting to energetic and adventurous.  Well I guarentee, you'll be extremely hype and off the walls after paying these spot a visit!</h1>
-<p>It's time to explore the adrenaline junkie side of you!</p>
+<p>It's time to explore the adrenaline junkie side of you!</p
+ 
+<div class="row">
+  <div class="column" style="background-color:white;">
 <p></p>
 <p>Head over to Suncity Resort for a fun waterpark experience! But mainly: Suncity is known for having the longest zipline in Africa! You'll feel like you can fly after that experience!</p>
 <p>Address: R556, Sun City, 0316, South Africa</p>
 	<img src="https://raw.githubusercontent.com/Meklitmecuria/tech-blaster.github/main/pictures/Sun-City-Resort.jpg" alt="Sun-City">
-
+ 
 <p></p>
 <p></p>
+  </div>
+  <div class="column" style="background-color:white;">
 <p>Check out Gold Reef City Theme Park for an adventure park experience like never before! My favorite (& scariest) ride is the Anaconda!  Head to the Casino if you're feeling up for it!</p>
 <p>Address: Northern Pkwy & Data Cres, Johannesburg, 2159, South Africa</p>
 	<img src="https://raw.githubusercontent.com/Meklitmecuria/tech-blaster.github/main/pictures/gold%20reef.png" alt="GoldReef1">
+  </div>
+</div>
 </body>
 </html>
